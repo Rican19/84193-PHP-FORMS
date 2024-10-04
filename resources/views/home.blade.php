@@ -1,12 +1,3 @@
-use Illuminate\Support\Facades\Route;
-
-Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/about', function () {
-    return view('about');
-});
-Route::get('/contact', function () {
-    return view('contact');
-});
+<x-layout>
+    <h1>Hello from home page</h1>
+</x-layout>
